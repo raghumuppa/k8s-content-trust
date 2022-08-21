@@ -22,6 +22,7 @@ distinguished_name = req_distinguished_name
 basicConstraints = CA:FALSE
 keyUsage = nonRepudiation, digitalSignature, keyEncipherment
 extendedKeyUsage = clientAuth, serverAuth
+subjectAltName = DNS:admission_ca, DNS:opa-svc, DNS:opa-svc.opa.svc, DNS:opa-svc.opa.svc.cluster.local
 EOL
 
 
